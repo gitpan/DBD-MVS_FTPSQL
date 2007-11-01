@@ -281,4 +281,18 @@ our %info = (
 
 1;
 
+=head1 NAME
+
+DBD::MVS_FTPSQL::GetInfo - SQL/CLI Constants for GetInfo
+
+=head1 SYNOPSIS
+
+  The API for this module is private.
+
+=head1 DESCRIPTION
+
+Information requested by GetInfo().
+
+=cut
+
 __END__

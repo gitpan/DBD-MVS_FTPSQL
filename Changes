@@ -26,4 +26,6 @@ Revision history for DBD::MVS_FTPSQL.
           
 0.38.12   First public release. 
 
+0.38.13   Commented the require 5.004; directive
+          it will cause Use of reserved word "our" is deprecated errors
 

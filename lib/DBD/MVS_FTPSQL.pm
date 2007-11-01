@@ -7,14 +7,14 @@
 
 use warnings;
 use strict;
-require 5.004;
+#require 5.004;
 require DBI;
 use Net::FTP;
 use IO::File;  
 use Carp qw(croak);
 
 package DBD::MVS_FTPSQL;
-our $VERSION = '0.38.12';
+our $VERSION = '0.38.13';
 
 our $drh = undef; # Driver handle. Every thread has one (see CLONE method)
 
@@ -612,7 +612,7 @@ DBD::MVS_FTPSQL - DBI driver to query IBM DB2 mainframe databases through an IBM
 
 =head1 VERSION 
 
-This documentation refers to DBD::MVS_FTPSQL version 0.38.12.
+This documentation refers to DBD::MVS_FTPSQL version 0.38.13.
 
 =head1 SYNOPSIS
 

@@ -58,4 +58,19 @@ package DBD::MVS_FTPSQL::TypeInfo;
     1;
 }
 
+=head1 NAME
+
+DBD::MVS_FTPSQL::TypeInfo - SQL/CLI Constants for TypeInfo.
+
+=head1 SYNOPSIS
+
+  The API for this module is private.
+
+=head1 DESCRIPTION
+
+Information requested by TypeInfo().
+
+=cut
+
+
 __END__
